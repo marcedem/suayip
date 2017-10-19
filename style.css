@@ -1,0 +1,91 @@
+main {
+	background-color: #FFF;
+}
+
+header.navbar {
+	border-bottom: 2px solid #42b3f4;
+	padding: 10px 0px;
+	margin-bottom: 50px;
+	background: #F7F7F7;
+}
+
+div#bd-main-nav li a{
+	color: #418ff4;
+}
+
+div#bd-main-nav li a{
+	color: #418ff4;
+	font-weight: 700;
+}
+
+ul.nav.navbar-nav{
+	margin: 0 auto;
+}
+
+div#bd-main-nav li a:hover{
+	color: #113e77;
+    border-radius: 5px;
+    color: white;
+    background-color: #418ff4;
+}
+
+main div.main-container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+div.card img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+div.image-container{
+	padding: 15px;
+}
+
+div.card {
+	cursor: pointer;
+}
+
+div.card div.card-img-overlay:hover{
+	opacity: 0.8;
+	background: #000;
+	border-radius: calc(.25rem - 1px);
+}
+
+
+footer{
+    min-height: 200px;
+    background-color: #999;
+}
+
+/* THIS IS A COMMENT*/
+
+/* Transparent
+/*
+/*.navbar-default {
+  background: none;
+  border: none;
+}*/
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
